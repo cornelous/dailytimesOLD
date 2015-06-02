@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dailytimes.co.za.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/database.example.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Capfile" afterPath="$PROJECT_DIR$/Capfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,19 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class-options-framework-admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/admin/options/includes/class-options-framework-admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="282" column="0" selection-start="7876" selection-end="7876" vertical-scroll-proportion="-3.75" vertical-offset="4050" max-vertical-offset="5175">
-              <folding />
-            </state>
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="260" column="82" selection-start="8656" selection-end="8656" vertical-scroll-proportion="0.09009009" vertical-offset="3710" max-vertical-offset="4230">
+            <state line="73" column="3" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.9478261" vertical-offset="550" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -63,6 +54,7 @@
       <list>
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/includes/class-options-framework-admin.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -128,7 +120,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -171,7 +163,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22205207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22205207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -205,16 +197,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/admin/options/includes/class-options-framework-admin.php">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="0" selection-start="7876" selection-end="7876" vertical-scroll-proportion="-3.75" vertical-offset="4050" max-vertical-offset="5175">
+        <state line="260" column="82" selection-start="8656" selection-end="8656" vertical-scroll-proportion="0.09009009" vertical-offset="3710" max-vertical-offset="4230">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/admin/options/includes/class-options-framework-admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="260" column="82" selection-start="8656" selection-end="8656" vertical-scroll-proportion="0.09009009" vertical-offset="3710" max-vertical-offset="4230">
+        <state line="282" column="0" selection-start="7876" selection-end="7876" vertical-scroll-proportion="0.2027027" vertical-offset="4050" max-vertical-offset="5175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="3" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.9478261" vertical-offset="550" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>

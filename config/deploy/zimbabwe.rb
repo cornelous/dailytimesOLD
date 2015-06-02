@@ -2,8 +2,8 @@
 # Setup Server
 ############################################
 
-set :stage, :staging
-set :stage_url, "http://staging.dailytimes.co.za"
+set :stage, :zimbabwe
+set :stage_url, "http://dailytimes.co.zw"
 server "54.68.244.159", user: "ubuntu", roles: %w{web app db}
 
 set :pty, true
@@ -14,13 +14,13 @@ set :ssh_options, {
   keys: ["/home/clive/Desktop/.ssh/NewsAfricaTODAY.pem"]
 }
 
-set :deploy_to, "/var/www/html/staging.dailytimes.co.za"
+set :deploy_to, "/var/www/html/dailytimes.co.zw"
 
 ############################################
 # Setup Git
 ############################################
 
-set :branch, "staging"
+set :branch, "master"
 
 ############################################
 # Extra Settings

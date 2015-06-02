@@ -2,23 +2,23 @@
 lock '3.4.0'
 
 # require Slack config
-require './config/slack'
+#require './config/slack'
 
 ############################################
 # Setup WordPress
 ############################################
 
-set :wp_user, "yourname" # The admin username
-set :wp_email, "yourname@example.com" # The admin email address
-set :wp_sitename, "WP Deploy" # The site title
-set :wp_localurl, "http://wpdeploy" # Your local environment URL
+set :wp_user, "dailytimes" # The admin username
+set :wp_email, "news@africainsideout.com" # The admin email address
+set :wp_sitename, "Daily Times" # The site title
+set :wp_localurl, "http://localhost/dailytimes" # Your local environment URL
 
 ############################################
 # Setup project
 ############################################
 
-set :application, "wp-deploy"
-set :repo_url, "git@github.com:Mixd/wp-deploy.git"
+set :application, "dailytimes"
+set :repo_url, "https://github.com/cornelous/dailytimes.git"
 set :scm, :git
 
 set :git_strategy, SubmoduleStrategy
@@ -34,7 +34,7 @@ set :ssh_options, {
   forward_agent: true
 }
 
-set :keep_releases, 5
+set :keep_releases, 3
 
 ############################################
 # Linked files and directories (symlinks)
