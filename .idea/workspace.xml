@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4766" column="36" selection-start="90881" selection-end="90888" vertical-scroll-proportion="-3.3214285" vertical-offset="71304" max-vertical-offset="100470">
+            <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.38435373" vertical-offset="6104" max-vertical-offset="100470">
               <folding />
             </state>
           </provider>
@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.min.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="56" selection-start="606" selection-end="606" vertical-scroll-proportion="0.2682927" vertical-offset="0" max-vertical-offset="615">
+            <state line="22" column="0" selection-start="97527" selection-end="97527" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
-        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
       </list>
     </option>
   </component>
@@ -317,16 +317,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4766" column="36" selection-start="90881" selection-end="90888" vertical-scroll-proportion="-3.3214285" vertical-offset="71304" max-vertical-offset="100470">
+        <state line="22" column="0" selection-start="97527" selection-end="97527" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="56" selection-start="606" selection-end="606" vertical-scroll-proportion="0.2682927" vertical-offset="0" max-vertical-offset="615">
+        <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.38435373" vertical-offset="6104" max-vertical-offset="100470">
           <folding />
         </state>
       </provider>
