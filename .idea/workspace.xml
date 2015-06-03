@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,25 +29,25 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="415" column="13" selection-start="8374" selection-end="8374" vertical-scroll-proportion="-10.037037" vertical-offset="5954" max-vertical-offset="100470">
+            <state line="4766" column="36" selection-start="90881" selection-end="90888" vertical-scroll-proportion="-3.3214285" vertical-offset="71304" max-vertical-offset="100470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="20" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.50174826" vertical-offset="1003" max-vertical-offset="1575">
+            <state line="86" column="20" selection-start="2102" selection-end="2102" vertical-scroll-proportion="-22.803572" vertical-offset="13" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.min.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="97524" selection-end="97524" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
+            <state line="11" column="56" selection-start="606" selection-end="606" vertical-scroll-proportion="0.2682927" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -71,9 +69,9 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/includes/class-options-framework-admin.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
-        <option value="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
       </list>
     </option>
   </component>
@@ -208,70 +206,6 @@
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimesza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimes.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimes.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimesza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimes.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimes.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -366,13 +300,6 @@
         <state line="282" column="0" selection-start="7876" selection-end="7876" vertical-scroll-proportion="0.2027027" vertical-offset="4050" max-vertical-offset="5175" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="97524" selection-end="97524" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="48" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.37261698" vertical-offset="550" max-vertical-offset="1200">
@@ -383,16 +310,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="415" column="13" selection-start="8374" selection-end="8374" vertical-scroll-proportion="-10.037037" vertical-offset="5954" max-vertical-offset="100470">
+        <state line="86" column="20" selection-start="2102" selection-end="2102" vertical-scroll-proportion="-22.803572" vertical-offset="13" max-vertical-offset="1575">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="20" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.50174826" vertical-offset="1003" max-vertical-offset="1575">
+        <state line="4766" column="36" selection-start="90881" selection-end="90888" vertical-scroll-proportion="-3.3214285" vertical-offset="71304" max-vertical-offset="100470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="56" selection-start="606" selection-end="606" vertical-scroll-proportion="0.2682927" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
