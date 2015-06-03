@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="" />
+    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
+    </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.38435373" vertical-offset="6104" max-vertical-offset="100470">
+            <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="-8.37037" vertical-offset="6104" max-vertical-offset="100470">
               <folding />
             </state>
           </provider>
@@ -41,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.min.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="97527" selection-end="97527" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
+            <state line="18" column="5655" selection-start="6555" selection-end="6555" vertical-scroll-proportion="0.45918366" vertical-offset="0" max-vertical-offset="588">
               <folding />
             </state>
           </provider>
@@ -67,8 +69,8 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
-        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
       </list>
     </option>
   </component>
@@ -314,16 +316,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="97527" selection-end="97527" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
+        <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="-8.37037" vertical-offset="6104" max-vertical-offset="100470">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.38435373" vertical-offset="6104" max-vertical-offset="100470">
+        <state line="18" column="5655" selection-start="6555" selection-end="6555" vertical-scroll-proportion="0.45918366" vertical-offset="0" max-vertical-offset="588">
           <folding />
         </state>
       </provider>
