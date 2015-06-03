@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
-    </list>
+    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="" />
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
