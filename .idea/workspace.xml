@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="" />
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.min.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="97522" selection-end="97522" vertical-scroll-proportion="0.6088561" vertical-offset="0" max-vertical-offset="542">
+            <state line="3078" column="23" selection-start="52013" selection-end="52013" vertical-scroll-proportion="0.0" vertical-offset="46230" max-vertical-offset="100470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="19" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1575">
+            <state line="39" column="0" selection-start="1108" selection-end="1477" vertical-scroll-proportion="0.1323024" vertical-offset="508" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
@@ -265,7 +260,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../theprayingcouple.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tpc.com" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -645,23 +640,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="19" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1575">
+        <state line="18" column="39920" selection-start="40820" selection-end="40820" vertical-scroll-proportion="0.49815497" vertical-offset="0" max-vertical-offset="542">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3078" column="23" selection-start="52013" selection-end="52013" vertical-scroll-proportion="0.55350554" vertical-offset="45870" max-vertical-offset="100470">
+        <state line="3078" column="23" selection-start="52013" selection-end="52013" vertical-scroll-proportion="0.0" vertical-offset="46230" max-vertical-offset="100470">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="97522" selection-end="97522" vertical-scroll-proportion="0.6088561" vertical-offset="0" max-vertical-offset="542">
+        <state line="39" column="0" selection-start="1108" selection-end="1477" vertical-scroll-proportion="0.1323024" vertical-offset="508" max-vertical-offset="1575">
           <folding />
         </state>
       </provider>
