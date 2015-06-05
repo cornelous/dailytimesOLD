@@ -742,6 +742,9 @@ body {
 		border-color: #8ac9e8;
 		background: #f8fcfe;
 	}
+	&:nth-of-type(n+10) {
+		display: none;
+	}
 	h3 {
 		cursor: pointer;
 		margin: 0 0 em(7px);
@@ -758,6 +761,9 @@ body {
 	&:hover, &:focus {
 		border-color: #8ac9e8;
 		background: #f8fcfe;
+	}
+	&:nth-of-type(n+10) {
+		display: none;
 	}
 
 	&.active {

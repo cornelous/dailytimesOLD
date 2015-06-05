@@ -8,8 +8,7 @@
  * First Introduced: 1.3
  * Requires Connection: No
  * Auto Activate: Yes
- * Module Tags: Other
- * Feature: Jumpstart
+ * Module Tags: Other, Jumpstart
  */
 
 include dirname( __FILE__ ) . '/contact-form/grunion-contact-form.php';

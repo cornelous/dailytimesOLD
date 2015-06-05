@@ -139,11 +139,8 @@ class WPCOM_JSON_API_List_Posts_v1_1_Endpoint extends WPCOM_JSON_API_Post_v1_1_E
 			}
 		} else if ( $args['sticky'] === 'require' ) {
 			$sticky = get_option( 'sticky_posts' );
-			if ( is_array( $sticky ) && ! empty( $sticky ) ) {
+			if ( is_array( $sticky ) ) {
 				$query['post__in'] = $sticky;
-			} else {
-				// no sticky posts exist
-				return array( 'found' => 0, 'posts' => array() );
 			}
 		}
 

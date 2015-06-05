@@ -8,8 +8,7 @@
  * First Introduced: 1.1
  * Requires Connection: No
  * Auto Activate: Yes
- * Module Tags: Social, Appearance
- * Feature: Jumpstart
+ * Module Tags: Social, Appearance, Jumpstart
  */
 
 define( 'GROFILES__CACHE_BUSTER', gmdate( 'YM' ) . 'aa' ); // Break CDN cache, increment when gravatar.com/js/gprofiles.js changes

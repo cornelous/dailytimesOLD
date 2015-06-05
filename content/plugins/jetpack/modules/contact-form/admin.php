@@ -15,12 +15,7 @@ add_action( 'admin_enqueue_scripts', 'grunion_menu_alter' );
  */
 add_action( 'media_buttons', 'grunion_media_button', 999 );
 function grunion_media_button( ) {
-	global $post_ID, $temp_ID, $pagenow;
-
-	if ( 'press-this.php' === $pagenow ) {
-		return;
-	}
-
+	global $post_ID, $temp_ID;
 	$iframe_post_id = (int) (0 == $post_ID ? $temp_ID : $post_ID);
 	$title = __( 'Add Contact Form', 'jetpack' );
 	$plugin_url = esc_url( GRUNION_PLUGIN_URL );
