@@ -4,7 +4,7 @@
 // Admin nav iconx
 // ==========================================================================
 
-li.toplevel_page_jetpack .wp-menu-image:before {
+#toplevel_page_jetpack .wp-menu-image:before {
 	font-family: 'jetpack' !important;
 	content: '\f102';
 }
@@ -21,7 +21,3 @@ li.toplevel_page_jetpack .wp-menu-image:before {
 		height: auto ;
 	}
 }
-
-// ==========================================================================
-// Protect Widget Icons
-// ==========================================================================
