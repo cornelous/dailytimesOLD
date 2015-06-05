@@ -8,6 +8,7 @@
  * Requires Connection: Yes
  * Auto Activate: Yes
  * Module Tags: Recommended
+ * Feature: Recommended
  */
 
 include_once JETPACK__PLUGIN_DIR . 'modules/protect/shared-functions.php';
@@ -44,6 +45,7 @@ class Jetpack_Protect_Module {
 	 */
 	private function __construct() {
 		add_action( 'jetpack_activate_module_protect', array( $this, 'on_activation' ) );
+		add_action( 'init',                            array( $this, 'maybe_get_protect_key' ) );
 		add_action( 'jetpack_modules_loaded',          array( $this, 'modules_loaded' ) );
 		add_action( 'login_head',                      array( $this, 'check_use_math' ) );
 		add_filter( 'authenticate',                    array( $this, 'check_preauth' ), 10, 3 );
@@ -62,7 +64,16 @@ class Jetpack_Protect_Module {
 	 * On module activation, try to get an api key
 	 */
 	public function on_activation() {
-		$this->get_protect_key();
+		update_site_option('jetpack_protect_activating', 'activating');
+		// Get BruteProtect's counter number
+		Jetpack_Protect_Module::protect_call( 'check_key' );
+	}
+
+	public function maybe_get_protect_key() {
+		if ( get_site_option('jetpack_protect_activating', false ) && ! get_site_option('jetpack_protect_key', false ) ) {
+			$this->get_protect_key();
+			delete_site_option( 'jetpack_protect_activating' );
+		}
 	}
 
 	/**
@@ -209,6 +220,7 @@ class Jetpack_Protect_Module {
 		$use_math = $this->get_transient( 'brute_use_math' );
 
 		if ( 1 == $use_math && isset( $_POST['log'] ) ) {
+			include_once dirname( __FILE__ ) . '/protect/math-fallback.php';
 			Jetpack_Protect_Math_Authenticate::math_authenticate();
 		}
 
@@ -239,7 +251,6 @@ class Jetpack_Protect_Module {
 			'HTTP_X_REAL_IP',
 			'HTTP_X_VARNISH',
 			'REMOTE_ADDR'
-
 		);
 
 		foreach( $ip_related_headers as $header) {
@@ -265,7 +276,6 @@ class Jetpack_Protect_Module {
 		}
 
 		$whitelist  = get_site_option( 'jetpack_protect_whitelist', array() );
-		$ip_long    = inet_pton( $ip );
 
 		if ( ! empty( $whitelist ) ) :
 			foreach ( $whitelist as $item ) :
@@ -275,10 +285,7 @@ class Jetpack_Protect_Module {
 				}
 
 				if ( $item->range && isset( $item->range_low ) && isset( $item->range_high ) ) {
-					$ip_low  = inet_pton( $item->range_low );
-					$ip_high = inet_pton( $item->range_high );
-					// If the IP is within range
-					if ( strcmp( $ip_long, $ip_low ) >= 0 && strcmp( $ip_long, $ip_high ) <= 0 ) {
+					if ( $this->ip_address_is_in_range( $ip, $item->range_low, $item->range_high ) ) {
 						return true;
 					}
 				}
@@ -286,6 +293,43 @@ class Jetpack_Protect_Module {
 		endif;
 
 		return false;
+	}
+
+	/**
+	 * Checks that a given IP address is within a given low - high range.
+	 * Servers that support inet_pton will use that function to convert the ip to number,
+	 * while other servers will use ip2long.
+	 *
+	 * NOTE: servers that do not support inet_pton cannot support ipv6.
+	 *
+	 * @param $ip
+	 * @param $range_low
+	 * @param $range_high
+	 *
+	 * @return bool
+	 */
+	function ip_address_is_in_range( $ip, $range_low, $range_high ) {
+		// inet_pton will give us binary string of an ipv4 or ipv6
+		// we can then use strcmp to see if the address is in range
+		if ( function_exists( 'inet_pton' ) ) {
+			$ip_num  = inet_pton( $ip );
+			$ip_low  = inet_pton( $range_low );
+			$ip_high = inet_pton( $range_high );
+			if ( $ip_num && $ip_low && $ip_high && strcmp( $ip_num, $ip_low ) >= 0 && strcmp( $ip_num, $ip_high ) <= 0 ) {
+				return true;
+			}
+		// ip2long will give us an integer of an ipv4 address only. it will produce FALSE for ipv6
+		} else {
+			$ip_num  = ip2long( $ip );
+			$ip_low  = ip2long( $range_low );
+			$ip_high = ip2long( $range_high );
+			if ( $ip_num && $ip_low && $ip_high && $ip_num >= $ip_low && $ip_num <= $ip_high ) {
+				return true;
+			}
+		}
+
+		return false;
+
 	}
 
 	/**
@@ -302,6 +346,10 @@ class Jetpack_Protect_Module {
 		$transient_value    = $this->get_transient( $transient_name );
 		$ip                 = jetpack_protect_get_ip();
 
+		if( jetpack_protect_ip_is_private( $ip ) ) {
+			return true;
+		}
+		
 		if ( $this->ip_is_whitelisted( $ip ) ) {
 			return true;
 		}
@@ -347,7 +395,7 @@ class Jetpack_Protect_Module {
 		$help_url = 'http://jetpack.me/support/security/';
 
 		wp_die(
-			sprintf( __( 'Your IP (%1$s) has been flagged for potential security violations.  <a href="%2$s">Find out more...</a>', 'jetpack' ), $ip, esc_url($help_url) ),
+			sprintf( __( 'Your IP (%1$s) has been flagged for potential security violations.  <a href="%2$s">Find out more...</a>', 'jetpack' ), str_replace( 'http://', '', esc_url( 'http://' . $ip ) ), esc_url( $help_url ) ),
 			__( 'Login Blocked by Jetpack', 'jetpack' ),
 			array( 'response' => 403 )
 		);

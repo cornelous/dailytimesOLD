@@ -6,9 +6,6 @@ class Jetpack_Landing_Page extends Jetpack_Admin_Page {
 	protected $dont_show_if_not_active = false;
 
 	function get_page_hook() {
-		// @todo: Remove in Jetpack class itself.
-		remove_action( 'admin_menu', array( $this->jetpack, 'admin_menu' ), 999 );
-
 		$title = _x( 'Jetpack', 'The menu item label', 'jetpack' );
 
 		list( $jetpack_version ) = explode( ':', Jetpack_Options::get_option( 'version' ) );
@@ -64,7 +61,7 @@ class Jetpack_Landing_Page extends Jetpack_Admin_Page {
 
 		$module_info = array();
 		foreach ( $modules as $module => $value ) {
-			if ( in_array( $tag, $value['module_tags'] ) ) {
+			if ( in_array( $tag, $value['feature'] ) ) {
 				$module_info[] = array(
 					'module_slug'   => $value['module'],
 					'module_name'   => $value['name'],
@@ -96,7 +93,7 @@ class Jetpack_Landing_Page extends Jetpack_Admin_Page {
 			'jumpstart_dismissed'
 		);
 
-		if ( $jumpstart_option && in_array( $jumpstart_option, $hide_options ) ) {
+		if ( ! $jumpstart_option || in_array( $jumpstart_option, $hide_options ) ) {
 			return false;
 		}
 
