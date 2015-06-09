@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="" />
+    <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" afterPath="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
+    </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,10 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1108" selection-end="1477" vertical-scroll-proportion="0.1323024" vertical-offset="508" max-vertical-offset="1575">
+            <state line="61" column="19" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1575">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="59" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.40384614" vertical-offset="0" max-vertical-offset="520">
               <folding />
             </state>
           </provider>
@@ -54,15 +65,6 @@
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-featured.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-featured.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="87" selection-start="5319" selection-end="5319" vertical-scroll-proportion="0.0" vertical-offset="1704" max-vertical-offset="2175">
               <folding />
             </state>
           </provider>
@@ -145,6 +147,7 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
+        <option value="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
       </list>
     </option>
   </component>
@@ -181,6 +184,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,8 +216,22 @@
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="dailytimes.co.za" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dailytimes.co.za" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,31 +249,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimesza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimes.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailytimes.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="popular-posts-tab-widget-for-jetpack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +299,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2652899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26926133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -328,6 +331,46 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="55" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="55" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+          <folding>
+            <marker date="1433329289054" expanded="true" signature="37:919" placeholder="..." />
+            <marker date="1433329289054" expanded="true" signature="353:397" placeholder="..." />
+            <marker date="1433329289054" expanded="true" signature="662:737" placeholder="..." />
+            <marker date="1433329289054" expanded="true" signature="786:884" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4702" column="1" selection-start="89596" selection-end="89596" vertical-scroll-proportion="0.0" vertical-offset="70215" max-vertical-offset="100470">
@@ -337,9 +380,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67573" selection-start="68473" selection-end="68473" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="18" column="67573" selection-start="68473" selection-end="68473" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
@@ -412,9 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="6" column="44" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
@@ -487,9 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="6" column="44" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
@@ -642,9 +679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39920" selection-start="40820" selection-end="40820" vertical-scroll-proportion="0.49815497" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
+        <state line="18" column="39920" selection-start="40820" selection-end="40820" vertical-scroll-proportion="0.49815497" vertical-offset="0" max-vertical-offset="542" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
@@ -656,7 +691,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1108" selection-end="1477" vertical-scroll-proportion="0.1323024" vertical-offset="508" max-vertical-offset="1575">
+        <state line="61" column="19" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="59" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.40384614" vertical-offset="0" max-vertical-offset="520">
           <folding />
         </state>
       </provider>
