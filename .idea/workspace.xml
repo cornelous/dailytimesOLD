@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/404.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-featured.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-featured.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-gallery.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-image.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content-video.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content-video.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/content.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-1.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-2.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-3.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-4.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/posts-varian-4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/slider.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/inc/builder/slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/languages/supernews.pot" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/languages/supernews.pot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
@@ -47,25 +61,25 @@
       <file leaf-file-name="tab.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="101" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+            <state line="11" column="101" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="404.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="0.31626505" vertical-offset="0" max-vertical-offset="435">
+            <state line="7" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-audio.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="content-audio.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="55" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="450">
+            <state line="20" column="55" selection-start="840" selection-end="840" vertical-scroll-proportion="0.5504587" vertical-offset="0" max-vertical-offset="545">
               <folding />
             </state>
           </provider>
@@ -110,12 +124,12 @@
       <file leaf-file-name="content-video.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+            <state line="24" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
               <folding>
-                <marker date="1433329289054" expanded="true" signature="37:919" placeholder="..." />
-                <marker date="1433329289054" expanded="true" signature="353:397" placeholder="..." />
-                <marker date="1433329289054" expanded="true" signature="662:737" placeholder="..." />
-                <marker date="1433329289054" expanded="true" signature="786:884" placeholder="..." />
+                <marker date="1433991090075" expanded="true" signature="37:918" placeholder="..." />
+                <marker date="1433991090075" expanded="true" signature="353:397" placeholder="..." />
+                <marker date="1433991090075" expanded="true" signature="662:737" placeholder="..." />
+                <marker date="1433991090075" expanded="true" signature="786:883" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -137,7 +151,6 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/includes/class-options-framework-admin.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-featured.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-gallery.php" />
@@ -150,6 +163,7 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
         <option value="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/404.php" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php" />
       </list>
     </option>
   </component>
@@ -299,10 +313,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32618684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32618684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27323273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27720413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -312,8 +326,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -358,10 +372,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
           <folding>
-            <marker date="1433329289054" expanded="true" signature="37:919" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="353:397" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="662:737" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="786:884" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="37:918" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="353:397" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="662:737" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="786:883" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -429,10 +443,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
           <folding>
-            <marker date="1433329289054" expanded="true" signature="37:919" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="353:397" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="662:737" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="786:884" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="37:918" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="353:397" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="662:737" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="786:883" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -500,10 +514,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="63" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="450">
           <folding>
-            <marker date="1433329289054" expanded="true" signature="37:919" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="353:397" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="662:737" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="786:884" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="37:918" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="353:397" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="662:737" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="786:883" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -571,10 +585,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="63" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="450">
           <folding>
-            <marker date="1433329289054" expanded="true" signature="37:919" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="353:397" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="662:737" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="786:884" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="37:918" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="353:397" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="662:737" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="786:883" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -603,13 +617,6 @@
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="450">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php">
@@ -654,12 +661,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+        <state line="24" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
           <folding>
-            <marker date="1433329289054" expanded="true" signature="37:919" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="353:397" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="662:737" placeholder="..." />
-            <marker date="1433329289054" expanded="true" signature="786:884" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="37:918" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="353:397" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="662:737" placeholder="..." />
+            <marker date="1433991090075" expanded="true" signature="786:883" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -692,7 +699,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="0.31626505" vertical-offset="0" max-vertical-offset="435">
+        <state line="7" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="55" selection-start="840" selection-end="840" vertical-scroll-proportion="0.5504587" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>

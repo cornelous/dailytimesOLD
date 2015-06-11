@@ -18,7 +18,7 @@
 	</div><!-- .entry-content -->
 
 	<div class="more-link">
-	    <a href="<?php the_permalink(); ?>"><?php _e( 'Read more ...', 'supernews' ); ?></a>
+	    <a href="<?php the_permalink(); ?>"><?php _e( 'Read more >>', 'supernews' ); ?></a>
 	</div><!-- .more-link -->   
 	
 </article><!-- #post-## -->
