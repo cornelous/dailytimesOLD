@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/single.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
@@ -28,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1047" column="1" selection-start="18591" selection-end="18591" vertical-scroll-proportion="-13.37037" vertical-offset="15344" max-vertical-offset="100575">
+            <state line="4542" column="47" selection-start="87008" selection-end="87021" vertical-scroll-proportion="-0.077328645" vertical-offset="68174" max-vertical-offset="100575">
               <folding />
             </state>
           </provider>
@@ -40,7 +37,7 @@
       <file leaf-file-name="style.min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="97603" selection-end="97603" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
+            <state line="22" column="0" selection-start="97603" selection-end="97603" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -76,16 +73,16 @@
       <file leaf-file-name="content-audio.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="450">
+            <state line="6" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="49" selection-start="70" selection-end="70" vertical-scroll-proportion="0.05357143" vertical-offset="0" max-vertical-offset="560">
+            <state line="2" column="49" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -268,7 +265,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tpc.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../littlebird-symfony" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -297,14 +294,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28514695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28911835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -312,11 +309,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32618684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -338,9 +335,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
@@ -400,16 +395,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
@@ -469,16 +460,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
@@ -538,16 +525,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
@@ -614,16 +597,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
@@ -668,28 +647,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1047" column="1" selection-start="18591" selection-end="18591" vertical-scroll-proportion="-13.37037" vertical-offset="15344" max-vertical-offset="100575">
+        <state line="6" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="97603" selection-end="97603" vertical-scroll-proportion="-12.222222" vertical-offset="0" max-vertical-offset="420">
+        <state line="22" column="0" selection-start="97603" selection-end="97603" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="49" selection-start="70" selection-end="70" vertical-scroll-proportion="0.05357143" vertical-offset="0" max-vertical-offset="560">
+        <state line="2" column="49" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4542" column="47" selection-start="87008" selection-end="87021" vertical-scroll-proportion="-0.077328645" vertical-offset="68174" max-vertical-offset="100575">
           <folding />
         </state>
       </provider>
