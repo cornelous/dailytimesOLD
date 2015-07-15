@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dailytimes.co.za.iml" afterPath="$PROJECT_DIR$/.idea/dailytimes.co.za.iml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4573" column="33" selection-start="87576" selection-end="87576" vertical-scroll-proportion="0.4662237" vertical-offset="68174" max-vertical-offset="100575">
+            <state line="4548" column="1" selection-start="87121" selection-end="87121" vertical-scroll-proportion="0.39977852" vertical-offset="67859" max-vertical-offset="100575">
               <folding />
             </state>
           </provider>
@@ -659,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4573" column="33" selection-start="87576" selection-end="87576" vertical-scroll-proportion="0.4662237" vertical-offset="68174" max-vertical-offset="100575">
+        <state line="4548" column="1" selection-start="87121" selection-end="87121" vertical-scroll-proportion="0.39977852" vertical-offset="67859" max-vertical-offset="100575">
           <folding />
         </state>
       </provider>
