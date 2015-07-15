@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dailytimes.co.za.iml" afterPath="$PROJECT_DIR$/.idea/dailytimes.co.za.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" afterPath="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4548" column="1" selection-start="87121" selection-end="87121" vertical-scroll-proportion="0.39977852" vertical-offset="67859" max-vertical-offset="100575">
+            <state line="4534" column="17" selection-start="86905" selection-end="86905" vertical-scroll-proportion="0.0" vertical-offset="67859" max-vertical-offset="100575">
               <folding />
             </state>
           </provider>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tab.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tab.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="101" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="495">
+            <state line="7" column="183" selection-start="780" selection-end="780" vertical-scroll-proportion="0.11627907" vertical-offset="0" max-vertical-offset="903">
               <folding />
             </state>
           </provider>
@@ -135,12 +135,12 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-image.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-video.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
-        <option value="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/404.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/single.php" />
+        <option value="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
       </list>
     </option>
   </component>
@@ -622,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="101" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="435">
@@ -659,7 +652,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4548" column="1" selection-start="87121" selection-end="87121" vertical-scroll-proportion="0.39977852" vertical-offset="67859" max-vertical-offset="100575">
+        <state line="4534" column="17" selection-start="86905" selection-end="86905" vertical-scroll-proportion="0.0" vertical-offset="67859" max-vertical-offset="100575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="183" selection-start="780" selection-end="780" vertical-scroll-proportion="0.11627907" vertical-offset="0" max-vertical-offset="903">
           <folding />
         </state>
       </provider>
