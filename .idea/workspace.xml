@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" afterPath="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4534" column="17" selection-start="86905" selection-end="86905" vertical-scroll-proportion="0.0" vertical-offset="67859" max-vertical-offset="100575">
+            <state line="3036" column="18" selection-start="51358" selection-end="51358" vertical-scroll-proportion="0.41923076" vertical-offset="45322" max-vertical-offset="100590">
               <folding />
             </state>
           </provider>
@@ -43,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tab.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tab.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="183" selection-start="780" selection-end="780" vertical-scroll-proportion="0.11627907" vertical-offset="0" max-vertical-offset="903">
+            <state line="23" column="90" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -137,19 +138,19 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/404.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php" />
-        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/single.php" />
         <option value="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1431" />
+    <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,6 +178,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,7 +253,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -292,7 +293,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29674572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43367752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -300,11 +301,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32618684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -544,11 +545,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1200" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="21" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/admin/options/options.php">
@@ -562,11 +563,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="48" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.37261698" vertical-offset="550" max-vertical-offset="1200" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="48" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.37261698" vertical-offset="550" max-vertical-offset="1200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php">
@@ -645,21 +646,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="97603" selection-end="97603" vertical-scroll-proportion="0.3654485" vertical-offset="0" max-vertical-offset="903">
+        <state line="22" column="0" selection-start="97603" selection-end="97603" vertical-scroll-proportion="0.3654485" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="90" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4534" column="17" selection-start="86905" selection-end="86905" vertical-scroll-proportion="0.0" vertical-offset="67859" max-vertical-offset="100575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="183" selection-start="780" selection-end="780" vertical-scroll-proportion="0.11627907" vertical-offset="0" max-vertical-offset="903">
+        <state line="3036" column="18" selection-start="51358" selection-end="51358" vertical-scroll-proportion="0.41923076" vertical-offset="45322" max-vertical-offset="100590">
           <folding />
         </state>
       </provider>
