@@ -1075,6 +1075,12 @@ article.sticky .sticky-post {
   font-size: 11px;
 }
 
+.entry-date-not-displayed {
+    color: #999999;
+    font-size: 11px;
+    display:none;
+}
+
 .entry-comment a:link,
 .entry-comment a:visited {
   color: #9f9f9f;

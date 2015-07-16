@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="420">
+            <state line="1077" column="1" selection-start="18948" selection-end="18972" vertical-scroll-proportion="-13.592592" vertical-offset="15788" max-vertical-offset="100680">
               <folding />
             </state>
           </provider>
@@ -62,15 +62,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-audio.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/functions.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,8 +74,19 @@
       <file leaf-file-name="template-tags.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="5" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.443686" vertical-offset="0" max-vertical-offset="6390">
+            <state line="24" column="42" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.25597268" vertical-offset="0" max-vertical-offset="6405">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop-nav.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/loop-nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding>
+                <marker date="1421149246000" expanded="true" signature="97:345" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +94,7 @@
       <file leaf-file-name="content-single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="53" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
+            <state line="6" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -101,7 +103,7 @@
       <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="46" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="495">
+            <state line="6" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -144,9 +146,9 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-audio.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/single.php" />
         <option value="$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css" />
-        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.min.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/content-single.php" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php" />
       </list>
     </option>
@@ -554,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3036" column="18" selection-start="51358" selection-end="51358" vertical-scroll-proportion="0.0" vertical-offset="45322" max-vertical-offset="100590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/author.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.092150174" vertical-offset="81" max-vertical-offset="1185" />
@@ -593,25 +588,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="916" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/loop-nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="916" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="55" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="7035">
@@ -619,9 +595,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/loop-nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="916">
+          <folding>
+            <marker date="1421149246000" expanded="true" signature="97:345" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1077" column="1" selection-start="18948" selection-end="18972" vertical-scroll-proportion="-13.592592" vertical-offset="15788" max-vertical-offset="100680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.443686" vertical-offset="0" max-vertical-offset="6390">
+        <state line="24" column="42" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.25597268" vertical-offset="0" max-vertical-offset="6405">
           <folding />
         </state>
       </provider>
