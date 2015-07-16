@@ -25,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1077" column="0" selection-start="18947" selection-end="18947" vertical-scroll-proportion="0.0" vertical-offset="15773" max-vertical-offset="100590">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +65,33 @@
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="5" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-1.25" vertical-offset="330" max-vertical-offset="6375">
-              <folding />
+              <folding>
+                <marker date="1437049914210" expanded="true" signature="5224:5864" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="5463:5856" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="5497:5734" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="6239:7301" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="6304:7293" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="8787:9311" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="8876:9302" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="8956:9270" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="8999:9259" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="9884:10400" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="9993:10314" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="10469:14495" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="10578:12082" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="10705:11472" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="11552:12043" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="11841:12018" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13074:14492" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13108:13229" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13257:14310" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13266:14300" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13344:14266" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13381:14254" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13498:13717" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="13968:14236" placeholder="..." />
+                <marker date="1437049914210" expanded="true" signature="14011:14221" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,11 +116,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="744" selection-end="744" vertical-scroll-proportion="0.45403588" vertical-offset="0" max-vertical-offset="892">
+            <state line="27" column="12" selection-start="732" selection-end="732" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general-template.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="9" selection-start="1600" selection-end="1600" vertical-scroll-proportion="-0.27189988" vertical-offset="1079" max-vertical-offset="47400">
+              <folding>
+                <marker date="1433255790608" expanded="true" signature="45203:45391" placeholder="SELECT YEAR(..." />
+                <marker date="1433255790608" expanded="true" signature="46166:46307" placeholder="SELECT YEAR(..." />
+                <marker date="1433255790608" expanded="true" signature="46955:47205" placeholder="SELECT YEAR(..." />
+                <marker date="1433255790608" expanded="true" signature="48056:48300" placeholder="SELECT DISTI..." />
+                <marker date="1433255790608" expanded="true" signature="49622:49686" placeholder="SELECT * FRO..." />
+                <marker date="1433255790608" expanded="true" signature="51925:52020" placeholder="SELECT 1 as ..$wpdb-&gt;posts WHERE..." />
+                <marker date="1433255790608" expanded="true" signature="53239:53453" placeholder="SELECT MONTH..." />
+                <marker date="1433255790608" expanded="true" signature="53482:53713" placeholder="SELECT MONTH..." />
+                <marker date="1433255790608" expanded="true" signature="54454:54460" placeholder="..." />
+                <marker date="1433255790608" expanded="true" signature="55241:55247" placeholder="..." />
+                <marker date="1433255790608" expanded="true" signature="55340:55575" placeholder="SELECT DISTI..$wpdb-&gt;posts WHERE..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -332,11 +370,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
@@ -612,14 +645,59 @@
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="5" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-1.25" vertical-offset="330" max-vertical-offset="6375">
-          <folding />
+          <folding>
+            <marker date="1437049914210" expanded="true" signature="5224:5864" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="5463:5856" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="5497:5734" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="6239:7301" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="6304:7293" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="8787:9311" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="8876:9302" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="8956:9270" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="8999:9259" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="9884:10400" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="9993:10314" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="10469:14495" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="10578:12082" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="10705:11472" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="11552:12043" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="11841:12018" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13074:14492" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13108:13229" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13257:14310" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13266:14300" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13344:14266" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13381:14254" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13498:13717" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="13968:14236" placeholder="..." />
+            <marker date="1437049914210" expanded="true" signature="14011:14221" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="744" selection-end="744" vertical-scroll-proportion="0.45403588" vertical-offset="0" max-vertical-offset="892">
+        <state line="27" column="12" selection-start="732" selection-end="732" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="9" selection-start="1600" selection-end="1600" vertical-scroll-proportion="-0.27189988" vertical-offset="1079" max-vertical-offset="47400">
+          <folding>
+            <marker date="1433255790608" expanded="true" signature="45203:45391" placeholder="SELECT YEAR(..." />
+            <marker date="1433255790608" expanded="true" signature="46166:46307" placeholder="SELECT YEAR(..." />
+            <marker date="1433255790608" expanded="true" signature="46955:47205" placeholder="SELECT YEAR(..." />
+            <marker date="1433255790608" expanded="true" signature="48056:48300" placeholder="SELECT DISTI..." />
+            <marker date="1433255790608" expanded="true" signature="49622:49686" placeholder="SELECT * FRO..." />
+            <marker date="1433255790608" expanded="true" signature="51925:52020" placeholder="SELECT 1 as ..$wpdb-&gt;posts WHERE..." />
+            <marker date="1433255790608" expanded="true" signature="53239:53453" placeholder="SELECT MONTH..." />
+            <marker date="1433255790608" expanded="true" signature="53482:53713" placeholder="SELECT MONTH..." />
+            <marker date="1433255790608" expanded="true" signature="54454:54460" placeholder="..." />
+            <marker date="1433255790608" expanded="true" signature="55241:55247" placeholder="..." />
+            <marker date="1433255790608" expanded="true" signature="55340:55575" placeholder="SELECT DISTI..$wpdb-&gt;posts WHERE..." />
+          </folding>
         </state>
       </provider>
     </entry>
