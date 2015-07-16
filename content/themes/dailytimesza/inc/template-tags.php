@@ -18,7 +18,7 @@ if ( ! function_exists( 'supernews_posted_on' ) ) :
  */
 function supernews_posted_on() {
 ?>
-	<span class="entry-author author vcard" <?php hybrid_attr( 'entry-author' ) ?>><i class="fa fa-user"></i> <a class="url fn n" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" itemprop="url"><small itemprop="name"><?php echo esc_html( get_the_author() ); ?></small></a></span>
+	<span class="entry-author author vcard" <?php hybrid_attr( 'entry-author' ) ?>><i class="fa fa-user"></i> <small itemprop="name"><?php echo esc_html( get_the_author() ); ?></small></span>
 	
 	<span class="entry-date"><i class="fa fa-clock-o"></i> <time class="entry-date published" datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>" <?php hybrid_attr( 'entry-published' ); ?>><?php echo esc_html( get_the_date() )?></time></span>
 
