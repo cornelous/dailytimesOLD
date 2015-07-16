@@ -57,12 +57,6 @@ function supernews_posted_on_with_date() {
 }
 
 
-
-
-
-
-
-
 /**
  * Returns true if a blog has more than 1 category.
  *
