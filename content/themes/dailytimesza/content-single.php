@@ -4,7 +4,7 @@
 	
 	<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php supernews_posted_on(); ?>
+			<?php supernews_posted_on_with_date(); ?>
 		</div><!-- .entry-meta -->
 	<?php endif; ?>
 	

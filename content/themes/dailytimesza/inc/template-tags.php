@@ -19,8 +19,6 @@ if ( ! function_exists( 'supernews_posted_on' ) ) :
 function supernews_posted_on() {
 ?>
 	<span class="entry-author author vcard" <?php hybrid_attr( 'entry-author' ) ?>><i class="fa fa-user"></i> <small itemprop="name"><?php echo esc_html( get_the_author() ); ?></small></span>
-	
-	<span class="entry-date"><i class="fa fa-clock-o"></i> <time class="entry-date published" datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>" <?php hybrid_attr( 'entry-published' ); ?>><?php echo esc_html( get_the_date() )?></time></span>
 
 	<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
 		<span class="entry-comment"><i class="fa fa-comments"></i> <?php comments_popup_link( __( '0 Comment', 'supernews' ), __( '1 Comment', 'supernews' ), __( '% Comments', 'supernews' ) ); ?></span>
@@ -36,6 +34,34 @@ function supernews_posted_on() {
 <?php
 }
 endif;
+
+
+function supernews_posted_on_with_date() {
+    ?>
+    <span class="entry-author author vcard" <?php hybrid_attr( 'entry-author' ) ?>><i class="fa fa-user"></i> <small itemprop="name"><?php echo esc_html( get_the_author() ); ?></small></span>
+
+    <span class="entry-date"><i class="fa fa-clock-o"></i> <time class="entry-date published" datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>" <?php hybrid_attr( 'entry-published' ); ?>><?php echo esc_html( get_the_date() )?></time></span>
+
+    <?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
+        <span class="entry-comment"><i class="fa fa-comments"></i> <?php comments_popup_link( __( '0 Comment', 'supernews' ), __( '1 Comment', 'supernews' ), __( '% Comments', 'supernews' ) ); ?></span>
+    <?php endif; ?>
+
+    <?php
+    $tag_list = get_the_tag_list( '', ', ' );
+    if ( $tag_list ) :
+        ?>
+        <span class="entry-tags" <?php hybrid_attr( 'entry-terms', 'post_tag' ); ?>><i class="fa fa-tags"></i> <?php echo $tag_list; ?></span>
+    <?php endif; ?>
+
+<?php
+}
+
+
+
+
+
+
+
 
 /**
  * Returns true if a blog has more than 1 category.
