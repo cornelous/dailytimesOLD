@@ -24,7 +24,7 @@
 
 			<?php get_template_part( 'menu', 'footer' ); // Loads the menu-footer.php template. ?>
 
-			<div class="copyright"><?php echo stripslashes( of_get_option( 'supernews_footer_text', of_get_default( 'supernews_footer_text' ) ) ); ?></div><!-- .copyright -->
+			
 
 		</div>
 		

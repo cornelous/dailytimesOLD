@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/single.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/footer.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general-template.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="general-template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="9" selection-start="1600" selection-end="1600" vertical-scroll-proportion="-0.27189988" vertical-offset="1079" max-vertical-offset="47400">
+            <state line="118" column="23" selection-start="3303" selection-end="3303" vertical-scroll-proportion="-33.166668" vertical-offset="899" max-vertical-offset="47400">
               <folding>
                 <marker date="1433255790608" expanded="true" signature="45203:45391" placeholder="SELECT YEAR(..." />
                 <marker date="1433255790608" expanded="true" signature="46166:46307" placeholder="SELECT YEAR(..." />
@@ -146,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-classic.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php">
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480">
+            <state line="26" column="12" selection-start="751" selection-end="751" vertical-scroll-proportion="0.43721974" vertical-offset="0" max-vertical-offset="892">
               <folding />
             </state>
           </provider>
@@ -187,6 +188,7 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/style.css" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/single.php" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/footer.php" />
       </list>
     </option>
   </component>
@@ -370,11 +372,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-grid-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="480" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="55" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="435" />
@@ -684,7 +681,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="9" selection-start="1600" selection-end="1600" vertical-scroll-proportion="-0.27189988" vertical-offset="1079" max-vertical-offset="47400">
+        <state line="118" column="23" selection-start="3303" selection-end="3303" vertical-scroll-proportion="-33.166668" vertical-offset="899" max-vertical-offset="47400">
           <folding>
             <marker date="1433255790608" expanded="true" signature="45203:45391" placeholder="SELECT YEAR(..." />
             <marker date="1433255790608" expanded="true" signature="46166:46307" placeholder="SELECT YEAR(..." />
@@ -698,6 +695,13 @@
             <marker date="1433255790608" expanded="true" signature="55241:55247" placeholder="..." />
             <marker date="1433255790608" expanded="true" signature="55340:55575" placeholder="SELECT DISTI..$wpdb-&gt;posts WHERE..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="12" selection-start="751" selection-end="751" vertical-scroll-proportion="0.43721974" vertical-offset="0" max-vertical-offset="892">
+          <folding />
         </state>
       </provider>
     </entry>
