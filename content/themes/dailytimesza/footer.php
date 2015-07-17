@@ -24,7 +24,7 @@
 
 			<?php get_template_part( 'menu', 'footer' ); // Loads the menu-footer.php template. ?>
 
-			
+
 
 		</div>
 		
