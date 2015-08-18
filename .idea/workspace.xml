@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2915cc8e-96cb-4d0a-9b02-fe330ee9c834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/footer.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/themes/dailytimesza/sidebar.php" afterPath="$PROJECT_DIR$/content/themes/dailytimesza/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dailytimes.co.za.iws" />
@@ -26,28 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/assets/css/colors/default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="19" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tab.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/plugins/popular-posts-tab-widget-for-jetpack/tab.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="90" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/404.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -65,34 +48,8 @@
       <file leaf-file-name="template-tags.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-1.25" vertical-offset="330" max-vertical-offset="6375">
-              <folding>
-                <marker date="1437049914210" expanded="true" signature="5224:5864" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="5463:5856" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="5497:5734" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="6239:7301" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="6304:7293" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="8787:9311" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="8876:9302" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="8956:9270" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="8999:9259" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="9884:10400" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="9993:10314" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="10469:14495" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="10578:12082" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="10705:11472" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="11552:12043" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="11841:12018" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13074:14492" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13108:13229" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13257:14310" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13266:14300" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13344:14266" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13381:14254" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13498:13717" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="13968:14236" placeholder="..." />
-                <marker date="1437049914210" expanded="true" signature="14011:14221" placeholder="..." />
-              </folding>
+            <state line="33" column="5" selection-start="1260" selection-end="1260" vertical-scroll-proportion="5.625" vertical-offset="495" max-vertical-offset="6375">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,10 +57,8 @@
       <file leaf-file-name="loop-nav.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/loop-nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding>
-                <marker date="1421149246000" expanded="true" signature="97:345" placeholder="..." />
-              </folding>
+            <state line="16" column="0" selection-start="684" selection-end="743" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +66,7 @@
       <file leaf-file-name="content-single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
+            <state line="6" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="-0.0" vertical-offset="90" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -120,7 +75,27 @@
       <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="732" selection-end="732" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="12" selection-start="471" selection-end="471" vertical-scroll-proportion="0.35779816" vertical-offset="0" max-vertical-offset="545">
+              <folding>
+                <element signature="n#style#0;n#ins#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -129,7 +104,7 @@
       <file leaf-file-name="general-template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="23" selection-start="3303" selection-end="3303" vertical-scroll-proportion="-33.166668" vertical-offset="899" max-vertical-offset="47400">
+            <state line="118" column="23" selection-start="3303" selection-end="3303" vertical-scroll-proportion="3.125" vertical-offset="1770" max-vertical-offset="47400">
               <folding>
                 <marker date="1433255790608" expanded="true" signature="45203:45391" placeholder="SELECT YEAR(..." />
                 <marker date="1433255790608" expanded="true" signature="46166:46307" placeholder="SELECT YEAR(..." />
@@ -147,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="14" selection-start="404" selection-end="404" vertical-scroll-proportion="0.34416825" vertical-offset="0" max-vertical-offset="660">
+            <state line="12" column="14" selection-start="404" selection-end="404" vertical-scroll-proportion="-5.125" vertical-offset="57" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -189,6 +164,9 @@
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/single.php" />
         <option value="$PROJECT_DIR$/content/themes/dailytimesza/footer.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/loop-nav.php" />
+        <option value="$PROJECT_DIR$/content/themes/dailytimesza/sidebar.php" />
       </list>
     </option>
   </component>
@@ -304,7 +282,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tpc.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -340,7 +318,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45512313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33598095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -372,21 +350,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="55" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100470">
-          <folding />
-        </state>
+        <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
@@ -401,9 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-featured.php">
@@ -438,9 +402,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100470">
-          <folding />
-        </state>
+        <state line="422" column="32" selection-start="8485" selection-end="8485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
@@ -455,9 +417,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-featured.php">
@@ -518,9 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-classic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="55" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-featured.php">
@@ -611,15 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/loop-nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="916">
-          <folding>
-            <marker date="1421149246000" expanded="true" signature="97:345" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13618" selection-start="14518" selection-end="14518" vertical-scroll-proportion="0.30821916" vertical-offset="0" max-vertical-offset="876" />
@@ -627,61 +576,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1077" column="0" selection-start="18947" selection-end="18947" vertical-scroll-proportion="0.0" vertical-offset="15773" max-vertical-offset="100590">
+        <state line="1077" column="0" selection-start="18947" selection-end="18947" vertical-scroll-proportion="0.0" vertical-offset="15773" max-vertical-offset="100590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="404" selection-end="404" vertical-scroll-proportion="-5.125" vertical-offset="57" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-single.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
+        <state line="16" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/inc/template-tags.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-1.25" vertical-offset="330" max-vertical-offset="6375">
-          <folding>
-            <marker date="1437049914210" expanded="true" signature="5224:5864" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="5463:5856" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="5497:5734" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="6239:7301" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="6304:7293" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="8787:9311" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="8876:9302" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="8956:9270" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="8999:9259" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="9884:10400" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="9993:10314" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="10469:14495" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="10578:12082" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="10705:11472" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="11552:12043" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="11841:12018" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13074:14492" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13108:13229" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13257:14310" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13266:14300" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13344:14266" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13381:14254" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13498:13717" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="13968:14236" placeholder="..." />
-            <marker date="1437049914210" expanded="true" signature="14011:14221" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="732" selection-end="732" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
+        <state line="33" column="5" selection-start="1260" selection-end="1260" vertical-scroll-proportion="5.625" vertical-offset="495" max-vertical-offset="6375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="23" selection-start="3303" selection-end="3303" vertical-scroll-proportion="-33.166668" vertical-offset="899" max-vertical-offset="47400">
+        <state line="118" column="23" selection-start="3303" selection-end="3303" vertical-scroll-proportion="3.125" vertical-offset="1770" max-vertical-offset="47400">
           <folding>
             <marker date="1433255790608" expanded="true" signature="45203:45391" placeholder="SELECT YEAR(..." />
             <marker date="1433255790608" expanded="true" signature="46166:46307" placeholder="SELECT YEAR(..." />
@@ -698,10 +619,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/footer.php">
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/content-single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="404" selection-end="404" vertical-scroll-proportion="0.34416825" vertical-offset="0" max-vertical-offset="660">
+        <state line="6" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/loop-nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="684" selection-end="743" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/dailytimesza/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="12" selection-start="471" selection-end="471" vertical-scroll-proportion="0.35779816" vertical-offset="0" max-vertical-offset="545">
+          <folding>
+            <element signature="n#style#0;n#ins#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

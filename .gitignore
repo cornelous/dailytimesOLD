@@ -11,6 +11,10 @@ database.yml
 ehthumbs.db
 Icon?
 Thumbs.db
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
 
 # Wordpress files #
 ###################
