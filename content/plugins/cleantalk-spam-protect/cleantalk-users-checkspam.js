@@ -11,10 +11,10 @@ String.prototype.format = String.prototype.f = function ()
     });
 };
 
-function ct_clear_comments()
+function ct_clear_users()
 {
 	var data = {
-		'action': 'ajax_clear_comments',
+		'action': 'ajax_clear_users',
 		'security': ajax_nonce
 	};
 	
@@ -23,15 +23,15 @@ function ct_clear_comments()
 		url: ajaxurl,
 		data: data,
 		success: function(msg){
-			ct_send_comments();
+			ct_send_users();
 		}
 	});
 }
 
-function ct_send_comments()
+function ct_send_users()
 {
 	var data = {
-		'action': 'ajax_check_comments',
+		'action': 'ajax_check_users',
 		'security': ajax_nonce
 	};
 	
@@ -42,14 +42,14 @@ function ct_send_comments()
 		success: function(msg){
 			if(parseInt(msg)==1)
 			{
-				ct_send_comments();
+				ct_send_users();
 			}
 			else if(parseInt(msg)==0)
 			{
 				working=false;
 				jQuery('#ct_working_message').hide();
 				//alert('finish!');
-				location.href='edit-comments.php?page=ct_check_spam';
+				location.href='users.php?page=ct_check_users';
 			}
 			else
 			{
@@ -59,12 +59,12 @@ function ct_send_comments()
 		}
 	});
 }
-function ct_show_info()
+function ct_show_users_info()
 {
 	if(working)
 	{
 		var data = {
-			'action': 'ajax_info_comments',
+			'action': 'ajax_info_users',
 			'security': ajax_nonce
 		};
 		jQuery.ajax({
@@ -72,16 +72,16 @@ function ct_show_info()
 			url: ajaxurl,
 			data: data,
 			success: function(msg){
-				jQuery('#ct_checking_status').html(msg);
-				setTimeout(ct_show_info, 1000);
+				jQuery('#ct_checking_users_status').html(msg);
+				setTimeout(ct_show_users_info, 1000);
 			}
 		});
 	}
 }
-function ct_insert_comments()
+function ct_insert_users()
 {
 	var data = {
-		'action': 'ajax_insert_comments',
+		'action': 'ajax_insert_users',
 		'security': ajax_nonce
 	};
 	
@@ -92,15 +92,15 @@ function ct_insert_comments()
 		success: function(msg){
 			if(msg=='ok')
 			{
-				alert('Added 500 comments');
+				alert('Added 500 users');
 			}
 		}
 	});
 }
-function ct_delete_all()
+function ct_delete_all_users()
 {
 	var data = {
-		'action': 'ajax_delete_all',
+		'action': 'ajax_delete_all_users',
 		'security': ajax_nonce
 	};
 	
@@ -111,17 +111,17 @@ function ct_delete_all()
 		success: function(msg){
 			if(msg>0)
 			{
-				jQuery('#cleantalk_comments_left').html(msg);
+				jQuery('#cleantalk_users_left').html(msg);
 				ct_delete_all();
 			}
 			else
 			{
-				location.href='edit-comments.php?page=ct_check_spam';
+				location.href='users.php?page=ct_check_users';
 			}
 		}
 	});
 }
-function ct_delete_checked()
+function ct_delete_checked_users()
 {
 	ids=Array();
 	var cnt=0;
@@ -133,7 +133,7 @@ function ct_delete_checked()
 		}
 	});
 	var data = {
-		'action': 'ajax_delete_checked',
+		'action': 'ajax_delete_checked_users',
 		'security': ajax_nonce,
 		'ids':ids
 	};
@@ -143,42 +143,43 @@ function ct_delete_checked()
 		url: ajaxurl,
 		data: data,
 		success: function(msg){
-			location.href='edit-comments.php?page=ct_check_spam';
+			location.href='users.php?page=ct_check_users';
 			//alert(msg);
 		}
 	});
+	return false;
 }
-jQuery("#ct_check_spam_button").click(function(){
+jQuery("#ct_check_users_button").click(function(){
 	jQuery('#ct_working_message').show();
-	jQuery('#ct_check_spam_button').hide();
+	jQuery('#ct_check_users_button').hide();
 	jQuery('#ct_info_message').hide();
 	working=true;
-	ct_clear_comments();
+	ct_clear_users();
 });
-jQuery("#ct_check_spam_button").click(function(){
-	jQuery('#ct_checking_status').html('');
+jQuery("#ct_check_users_button").click(function(){
+	jQuery('#ct_checking_users_status').html('');
 	working=true;
-	ct_show_info();
+	ct_show_users_info();
 });
-jQuery("#ct_insert_comments").click(function(){
-	ct_insert_comments();
+jQuery("#ct_insert_users").click(function(){
+	ct_insert_users();
 });
-jQuery("#ct_delete_all").click(function(){
-	jQuery('#ct_check_comments_table').hide();
+jQuery("#ct_delete_all_users").click(function(){
+	jQuery('#ct_check_users_table').hide();
 	jQuery('#ct_deleting_message').show();
 	jQuery("html, body").animate({ scrollTop: 0 }, "slow");
-	ct_delete_all();
+	ct_delete_all_users();
 });
-jQuery("#ct_delete_checked").click(function(){
-	ct_delete_checked();
+jQuery("#ct_delete_checked_users").click(function(){
+	ct_delete_checked_users();
 });
 
 jQuery(document).ready(function(){
 	working=true;
-	ct_show_info();
+	ct_show_users_info();
 	working=false;
 	if(location.href.match(/do_check/))
 	{
-		jQuery("#ct_check_spam_button").click();
+		jQuery("#ct_check_users_button").click();
 	}
 });
