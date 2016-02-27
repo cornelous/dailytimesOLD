@@ -4,17 +4,17 @@
 
 set :stage, :botswana
 set :stage_url, "http://dailytimes.co.bw"
-server "54.68.244.159", user: "ubuntu", roles: %w{web app db}
+server "159.203.104.176", user: "clive", roles: %w{web app db}
 
 set :pty, true
 
 set :ssh_options, {
-  forward_agent: true,
-  auth_methods: ["publickey"],
-  keys: ["/home/clive/Desktop/.ssh/NewsAfricaTODAY.pem"]
+    auth_methods: %w(password),
+    password: 'plutoris',
+    user: 'clive',
 }
 
-set :deploy_to, "/var/www/html/dailytimes.co.bw"
+set :deploy_to, "/var/www/vhosts/dailytimes.co.bw"
 
 ############################################
 # Setup Git
